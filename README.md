@@ -7,6 +7,7 @@ A 2-3 page personal profile site built for Assignment 2 - Semantic HTML, CSS & R
 ## Structure
 - index.html - Home/profile overview
 - about.html - About/experience page
+- contact.html - Contact form and details
 - css/
     - base.css
     - layout.css

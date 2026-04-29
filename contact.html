@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Contact - Michaela Peterson</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/layout.css" />
+		<link rel="stylesheet" href="css/components.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container header-inner">
+				<div class="brand">
+					<h1>Michaela Peterson</h1>
+				</div>
+				<nav aria-label="Main Navigation">
+					<ul class="nav-list">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section class="contact-hero" aria-labelledby="contact-heading">
+				<div class="container">
+					<h2 id="contact-heading">Contact Me</h2>
+					<p>Have a question or want to connect? Fill out the form below and I'll get back to you soon!</p>
+					<form action="#" method="post" novalidate>
+						<div class="form-row">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" required />
+						</div>
+						<div class="form-row">
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" required />
+						</div>
+						<div class="form-row">
+							<label for="message">Message</label>
+							<textarea id="message" name="message" rows="4" required></textarea>
+						</div>
+						<div class="form-row">
+							<button type="submit" class="btn">Send Message</button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container footer-inner">
+				<p>&copy; 2026 Michaela Peterson</p>
+				<p><a href="index.html">Home</a></p>
+			</div>
+		</footer>
+	</body>
+</html>
