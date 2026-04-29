@@ -1,3 +1,9 @@
 Design Rationale
 
-I structured this site using semantic HTML5 elements to create a logical and accessible document outline.
+I structured this site using semantic HTML5 elements to create a logical and accessible document outline. The <header> contains site branding and the primary <nav>; <main> holds content split into semantic <section> and <article> elements that represent distinct content areas (hero, features, and contact). The <footer> provides site-level metadata. This structure improves discoverability for assistance technologies and makes the DOM easier to navigate and maintain.
+
+The CSS is organized into focused files: base.css for global resets, variables, and typography; layout.css for Flexbox-based layout and container rules; component.css for buttons, cards, and nav styles; and responsive.css for breakpoint adjustments. I adopted a mobile-first strategy: the default styles target small screens using single-column layouts, and media queries add multi-column/row layouts at larger widths. Flexbox enables flexible, predictable alignment (ex: the features grid and nav items) while keeping the code simple and maintainable.
+
+Accessibility considerations include meaningful alt text on images, a single h1 per page and logical heading progression, and properly associated <label for="..."> attributes for every form input. The navigation includes aria-label to clarify its purpose to screen readers, and interactive elements include visible focus styles to aid keyboard users. Form inputs use semantic types (email, text) and required attributes for basic validation.
+
+Overall, the design focuses on progressive enhancement, maintainability through modular CSS, and ensuring content remains usable and accessible across devices and user agents.
