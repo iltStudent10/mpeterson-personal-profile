@@ -1,0 +1,26 @@
+/* Minor component styles */
+.nav-toggle {
+    background: transparent;
+    border: 1px solid #e5e7eb;
+    padding: 0.35rem 0.5rem;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.nav-toggle[aria-expanded="true"] {
+    background: rgba(11,108,255, 0.05);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+    .hero-text {
+        text-align: left;
+    }
+}

@@ -1,0 +1,31 @@
+/* Mobile-first; add larger screen adjustments */
+@media (min-width: 600px) {
+    .nav-list {
+        display: flex;
+    }
+    .nav-toggle {
+        display: none;
+    }
+    .hero-inner {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero-text {
+        max-width: 55%;
+    }
+    .hero-photo {
+        max-width: 40%;
+        display: block;
+        text-align: right;
+    }
+}
+
+@media (min-width: 900px) {
+    .feature-list {
+        flex-direction: row;
+    }
+    .card {
+        flex: 1;
+    }
+}
